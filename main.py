@@ -21,10 +21,6 @@ def check_win(field):
     for sign in win:
         if field[sign[0]] == field[sign[1]] == field[sign[2]]:
             return field[sign[0]]
-        elif field[sign[0]] == field[sign[1]] == field[sign[2]]:
-            return field[sign[0]]
-        elif field[sign[0]] == field[sign[1]] == field[sign[2]]:
-            return field[sign[0]]
     return False
 
 
